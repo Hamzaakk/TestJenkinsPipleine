@@ -1,8 +1,7 @@
-import fire
-import subprocess as pipes
 
-def hello(name="World"):
+
+def hello(name="World from jenkins pipline trigeer => commit"):
   return "Hello %s!" % name
 
-if __name__ == '__main__':
-  fire.Fire(hello)
+
+hello()
